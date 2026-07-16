@@ -200,7 +200,7 @@ Untuk penggunaan Cloudflare:
 
 # 👨‍💻 Author
 
-**ARI VPN STORE**
+**PT RAJA SERVER PREMIUM**
 
 GitHub: https://github.com/arivpnstores
 
