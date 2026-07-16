@@ -1,0 +1,84 @@
+/* ===== Background ===== */
+body {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    font-family: "Inter", sans-serif;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+    background: rgba(15, 23, 42, 0.85) !important;
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+/* ===== Card ===== */
+.card {
+    background: rgba(30, 41, 59, 0.75) !important;
+    border: 1px solid rgba(255,255,255,.08);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    transition: .25s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.35);
+}
+
+/* ===== Button ===== */
+.btn-primary {
+    background: #3b82f6 !important;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-primary:hover {
+    background: #2563eb !important;
+}
+
+/* ===== Badge ===== */
+.badge {
+    border-radius: 8px;
+}
+
+/* ===== Table ===== */
+table {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* ===== Status ===== */
+.bg-primary {
+    background: #3b82f6 !important;
+}
+
+.bg-success {
+    background: #22c55e !important;
+}
+
+.bg-danger {
+    background: #ef4444 !important;
+}
+
+.bg-warning {
+    background: #f59e0b !important;
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}
+
+/* ===== Smooth Animation ===== */
+* {
+    transition: all .2s ease;
+}
